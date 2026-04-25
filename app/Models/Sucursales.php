@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Sucursales extends Model
 {
     protected $fillable = [
-        'nombre_sucursal',
+        'nombre',
         'direccion',
         'telefono',
         'ciudad',

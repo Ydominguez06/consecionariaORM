@@ -9,3 +9,24 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+.menu-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.sidebar {
+    width: 240px;
+    min-height: 100vh;
+    background-color: #1f2937;
+}
+
+.sidebar .nav-link {
+    border-radius: 6px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #374151;
+}
